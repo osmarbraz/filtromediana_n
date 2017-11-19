@@ -69,7 +69,7 @@ public class Principal {
      *
      * Em java pode ser utilizando Math.floor(double)
      *
-     * @param x Numero real a ser cálculado o piso.
+     * @param x Número real a ser calculado o piso.
      * @return um valor inteiro com o piso de x.
      */
     public static int piso(double x) {
@@ -77,7 +77,7 @@ public class Principal {
         int parteInteira = (int) x;
         //Pego a parte fracionária de x
         double parteFracionaria = x - parteInteira;
-        //Retorno x subtraindo a parte fracionaria 
+        //Retorno x subtraindo a parte fracionária 
         return (int) (x - parteFracionaria);
     }
 
